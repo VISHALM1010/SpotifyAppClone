@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,400;1,100;1,600&display=swap');
+
+body {
+
+    width : 100%;
+
+    background-color: rgb(223, 202, 202);
+ }
+
+ *{
+
+    margin: 0;
+
+    padding: 0;
+
+ }
+
+ nav{
+
+    font-family: 'Kanit', sans-serif;
+   
+ }
+
+ nav ul {
+
+    display: flex;
+
+    align-items: center ;
+
+    list-style-type: none ;
+
+    height: 65px;
+
+    background-color: rgb(21, 20, 20);
+
+
+    color: white
+ }
+
+ .logo img{
+
+    width : 44px;
+
+
+    padding : 0 8px;
+
+ }
+
+ .logo {
+
+
+    display: flex;
+
+    align-items: center;
+
+    font-weight: bolder;
+
+    font-size: 1.3rem
+ }
+
+ nav ul li {
+
+    padding : 0 15px;
+
+
+ }
+
+ .container {
+
+    min-height: 70vh;
+
+    background-color: rgb(25, 16, 16);
+
+    color: white;
+
+   
+    font-family: 'Kanit', sans-serif;
+
+    display: flex;
+
+    margin: 25px auto; 
+
+    width : 70%;
+
+    border-radius: 10px;
+
+    padding : 30px;  
+
+    background-image: url('IMAGES/darkmusic.jpg');
+
+    background-size: cover;
+ }
+
+ .Bottom{
+
+    position:  stiky;
+
+    background-color: rgb(21, 20, 20);
+
+    color:white;
+
+
+    height: 100px;
+
+    bottom: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-direction: column;
+
+
+ }
+
+ #myprogressbar{
+
+    width: 80vw;
+
+    cursor: pointer;
+
+   
+ }
+
+ .icons{
+
+   margin :20px;
+ }
+
+ .icons{
+
+   cursor: pointer;
+
+  
+ }
+
+ .songItem{
+
+   height: 60px;
+   display: flex;
+
+   background-color: white;
+
+ 
+
+   color: black;
+
+   margin : 12px;
+
+   justify-content: space-between;
+
+   align-items: center;
+
+border-radius: 5px;
+
+padding : 0 10px;
+
+
+
+    
+
+    
+ }
+
+ .songItem img{
+
+   width: 40px;
+
+   margin : 10px;
+
+   border-radius: 10px;
+
+   
+
+
+ }
+
+ .timestamp{
+
+   padding : 20px;
+
+   margin: 10px 20px;
+ }
+
+ .timestamp i{
+
+   cursor: pointer;
+ }
+
+ .songItemcontainer{
+
+   margin-top:30px;
+
+ }
+
+ .songInfo{
+
+   left:10vw;
+
+   position: absolute;
+
+
+ }
+
+.songInfo IMG{
+
+   width: 40px;
+
+   margin : 0 10px;
+
+   opacity: 0;
+
+   transition: ocacity 0.7s ease-in;
+
+ 
+
+
+
+
+
+
+}
+
+
+.volumeControl {
+
+   right:10vw;
+
+   position: absolute;
+   display: flex;
+
+   margin : 20px;
+ 
+  }
+  
+  #volumeSlider {
+   margin-left: 5px;
+   width: 85px;
+  }
+  
+  #volumeIcon {
+   cursor: pointer;
+  }
+
+
+
+
+ 
+
